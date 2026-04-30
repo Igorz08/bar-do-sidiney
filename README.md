@@ -1,2 +1,7 @@
-# bar-do-sidiney
-Meu projeto de um restaurante
+** Bar do Sidiney **
+
+Bem vindo ao Bar do Sidiney
+Esse projeto tem como objetivo oferecer um serviço de alimentação, com um ambiente agradável e divertido para adultos e crianças.
+
+linguegem: js, html, css
+framework: react, node.js
