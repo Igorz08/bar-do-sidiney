@@ -9,16 +9,12 @@ h2 {
     margin: 15px;
 }
 
-h3 {
-    font-size: 35px;
-    color: #ffd000;
-    margin: 15px;
-}
+
 
 header {
     background: #FFD700;
     color: white;
-    border-bottom: #ffe866 solid 4px;
+    border-bottom: #ffe866 solid 5px;
 }
 
 body {
@@ -29,8 +25,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: Verdana;
-}
+    font-family: 'Bahnschrift10 2 10 2}
 
 header nav ul {
     display: flex;
@@ -40,7 +35,12 @@ header nav ul {
 .secao {
     justify-content: space-between;
     display: flex;
+    /*border: 2px red solid;*/
+    max-width: 1300px;
+    margin: 0 auto;
     align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 header h1 {
@@ -60,14 +60,86 @@ header nav ul a:hover {
     color: #ff7b00;
 }
 
-.abas {
-    background: #ff7b00;
-    padding: 9px;
-    display: flex;
-    justify-content: space-between;
-    max-width: 400px;
-}
+
 
 .aba h3 {
     border: 2px solid red;
+}
+/* Abas */
+
+.abas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* Aba 1 */
+
+.aba1 {
+    background: #ff7b00;
+    padding: 15px;
+    max-width: 260px;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    border: 5px solid #ff9d41;
+    margin: 10px;
+}
+
+.aba1 a {
+    text-decoration: none;
+    background: #ffd000;
+    border: 5px solid #ffd723;
+    color: black;
+    padding: 9px;
+    border-radius: 15px;
+}
+
+.aba1 a:hover {
+    background-color: #ffe46a;
+    border: 5px solid #ffeb8f
+}
+
+.aba1 h3 {
+    font-size: 35px;
+    color: #ffd000;
+}
+
+.aba1 p {
+    padding-bottom: 15px;
+}
+/* Aba 2 */
+
+.aba2 {
+    background: #ffd000;
+    padding: 15px;
+    max-width: 260px;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    border: 5px solid #ffe573;
+    margin: 10px;
+}
+
+.aba2 a {
+    text-decoration: none;
+    background: #ff7b00;
+    border: 5px solid #ff9d41;
+    color: black;
+    padding: 9px;
+    border-radius: 15px;
+}
+
+.aba2 a:hover {
+    background-color: #ff9d41;
+    border: 5px solid #ffb56f;
+}
+
+.aba2 h3 {
+    font-size: 35px;
+    color: #ff7b00;
+}
+
+.aba2 p {
+    padding-bottom: 15px;
 }
