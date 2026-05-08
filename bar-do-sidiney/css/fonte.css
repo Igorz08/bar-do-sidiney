@@ -60,17 +60,13 @@ header nav ul a:hover {
     color: #ff7b00;
 }
 
-
-
-.aba h3 {
-    border: 2px solid red;
-}
 /* Abas */
 
 .abas {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    border: 2px solid red;
 }
 
 /* Aba 1 */
@@ -83,7 +79,7 @@ header nav ul a:hover {
     border-radius: 20px;
     padding-bottom: 30px;
     border: 5px solid #ff9d41;
-    margin: 10px;
+    margin: 3px;
 }
 
 .aba1 a {
@@ -108,26 +104,18 @@ header nav ul a:hover {
 .aba1 p {
     padding-bottom: 15px;
 }
+
 /* Aba 2 */
 
 .aba2 {
     background: #ffd000;
-    padding: 15px;
-    max-width: 260px;
-    text-align: center;
-    border-radius: 20px;
-    padding-bottom: 30px;
     border: 5px solid #ffe573;
-    margin: 10pxa;
 }
 
 .aba2 a {
-    text-decoration: none;
     background: #ff7b00;
     border: 5px solid #ff9d41;
-    color: black;
-    padding: 9px;
-    border-radius: 15px;
+   
 }
 
 .aba2 a:hover {
@@ -136,10 +124,5 @@ header nav ul a:hover {
 }
 
 .aba2 h3 {
-    font-size: 35px;
     color: #ff7b00;
-}
-
-.aba2 p {
-    padding-bottom: 15px;
 }
