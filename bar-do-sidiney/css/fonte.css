@@ -1,15 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Bahnschrift'
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+    
 p {
     font-size: 20px;
     margin: 10px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 60px;
     color: #ffbb00;
     margin: 15px;
 }
 
-
+a {
+    text-decoration: none;
+    color: #ff7b00;
+}
 
 header {
     background: #FFD700;
@@ -20,12 +36,6 @@ header {
 body {
     background: #fffbf0;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-family: 'Bahnschrift'}
 
 header nav ul {
     display: flex;
@@ -60,6 +70,10 @@ header nav ul a:hover {
     color: #ff7b00;
 }
 
+a:hover {
+    color: #ffd900;
+}
+
 /* Abas */
 
 .abas {
@@ -68,20 +82,27 @@ header nav ul a:hover {
     /* border: 2px solid red; */
 }
 
+.abas p {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
 /* Aba 1 */
 
 .aba1 {
-    background: #ffd86c;
+    background: #ffe9ad;
     padding: 99px;
     text-align: center;
    
 }
 
 .aba1 a {
+    font-size: 40px;
+    font-weight: bold;
     text-decoration: none;
     background: #ffbb00;
     color: black;
-    padding: 15px;
+    padding: 25px;
     border-radius: 999px;
 }
 
@@ -91,8 +112,8 @@ header nav ul a:hover {
 }
 
 .aba1 h3 {
-    font-size: 35px;
-    color: #ffbb00;
+    font-size: 80px;
+    color: #d8a600;
 }
 
 .aba1 p {
@@ -102,14 +123,12 @@ header nav ul a:hover {
 /* Aba 2 */
 
 .aba2 {
-    background: #faed7b;
+    background: #fff8b4;
   
 }
 
 .aba2 a {
     background: #ffa600;
-
-   
 }
 
 .aba2 a:hover {
@@ -118,5 +137,23 @@ header nav ul a:hover {
 }
 
 .aba2 h3 {
-    color: #ff9900;
+    color: #dd8500;
+}
+
+/* Aba 3 */
+
+.aba3 {
+    background: #f9ffd9;
+}
+
+.aba3 h3 {
+    color: #ddc700;
+}
+
+.aba3 a {
+    background: #f1d900;
+}
+
+.aba3 a:hover {
+    background-color: #ffed4c;
 }
