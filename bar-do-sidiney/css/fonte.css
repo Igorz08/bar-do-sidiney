@@ -157,3 +157,13 @@ a:hover {
 .aba3 a:hover {
     background-color: #ffed4c;
 }
+
+/* rodape */
+
+footer {
+    background-color: #FFD700;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    border-top: #ffe866 solid 5px;
+}
