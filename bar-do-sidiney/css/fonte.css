@@ -9,10 +9,11 @@
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
+    border: red solid 2px;
 }
     
 p {
-    font-size: 20px;
+    font-size: 30px;
     margin: 10px;
 }
 
@@ -102,8 +103,9 @@ a:hover {
     text-decoration: none;
     background: #ffbb00;
     color: black;
-    padding: 25px;
+    padding: 25px 70px 25px 70px;
     border-radius: 999px;
+    transition: 0.15s;
 }
 
 .aba1 a:hover {
